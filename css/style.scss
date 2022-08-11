@@ -1,0 +1,195 @@
+.header{
+    position: fixed;
+    top: 0;
+    right:0;
+    left: 0;
+    border-bottom: 1px solid #F7F8FA;
+    padding-bottom: 1px;
+    padding-top: 15px;
+    background-color: #fff;
+    .row{
+        ul{
+            padding-top: 10px;
+            li{
+                font-size: 14px;
+                a{
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
+            }
+        } 
+        i{
+            margin-bottom: 20px;
+        }    
+    }
+}
+
+.mini{
+    font-size: 20px;
+}
+
+.mini1{
+    font-size: 25px;
+}
+.sol{
+    margin-left: 100px;
+    background-color: #F7F8FA;
+    padding: 13px 15px;
+    border-radius: 50%;
+}
+
+.soli{
+    margin-left: 25px;
+}
+
+.bodier{
+    padding-top: 70px;
+    .ele{
+        .lefto{
+        button{
+            background-color: #F7F8FA;
+            font-size: 13px;
+            padding: 1px 6px;
+        }
+        h1{
+            color:#231E41;
+            width:300%;
+            font-size: 60px;
+            font-weight: 900;
+            margin-top: 20px;
+        }
+        p{
+            margin-top: 20px;
+            color:#AEAEBC;
+            width:200%;
+        }
+        .but{
+            margin-top: 30px;
+            width: 300%;
+            .mane{
+                background-color: #FFD637;
+                font-size: 16px;
+                padding: 15px 20px;
+                border-radius: 0px;
+                i{
+                    margin-right: 15px;
+                }
+            }
+            .fane{
+                font-size: 16px;
+                padding: 15px 20px;
+                border-radius: 0px;
+                margin-left: 20px;
+                i{
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+    }
+    .righto{
+        .seko{
+            width: 350%;
+            margin-left: 250%;
+            img{
+                border-radius: 190%;
+            }
+        }
+    }
+}
+
+.interior{
+        .rosm{
+            width: 250%;
+                img{
+                    transform: scale(1.2);
+                    height: 100vh;
+                    animation: zoom 30s infinite ease-in-out;
+                    padding-top: 50px;
+                    padding-left: 40px;
+                }
+            }
+    .sagto{
+        .baso{
+            h1{
+                width: 280%;
+                color: #231E41;
+                font-weight: 600;
+                margin-left: 400px;
+                margin-top: 50px;
+            }
+        }
+        .ayaqo{
+            .box{
+                width: 550%;
+                margin-top: 40px;
+                &:nth-child(1){
+                    .numo{
+                        h2{
+                            margin-left: 400px;
+                            font-family: 'Monoton', cursive;
+                            color: #F5C332;
+                            font-size: 42px;
+                            line-height: 36px;
+                        }
+                        h3{
+                            line-height: 120%;
+                            font-size: 22px;
+                            letter-spacing: -1px;
+                            margin-left: 40px;
+                        }
+                        p{
+                            margin-left: 485px;
+                            color: #6F6F87;
+                            font-size: 15px;
+                        }
+                    }
+                    }
+                    &:nth-child(2){
+                        .numo{
+                            h2{
+                                margin-left: 400px;
+                                font-family: 'Monoton', cursive;
+                                color: #F5C332;
+                                font-size: 42px;
+                                line-height: 36px;
+                            }
+                            h3{
+                                line-height: 120%;
+                                font-size: 22px;
+                                letter-spacing: -1px;
+                                margin-left: 40px;
+                            }
+                            p{
+                                margin-left: 490px;
+                                color: #6F6F87;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                    &:nth-child(3){
+                        .numo{
+                            h2{
+                                margin-left: 400px;
+                                font-family: 'Monoton', cursive;
+                                color: #F5C332;
+                                font-size: 42px;
+                                line-height: 36px;
+                            }
+                            h3{
+                                line-height: 120%;
+                                font-size: 22px;
+                                letter-spacing: -1px;
+                                margin-left: 40px;
+                            }
+                            p{
+                                margin-left: 490px;
+                                color: #6F6F87;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
