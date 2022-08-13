@@ -3,6 +3,7 @@
   top: 0;
   right: 0;
   left: 0;
+  z-index: 5;
   border-bottom: 1px solid #F7F8FA;
   padding-bottom: 1px;
   padding-top: 15px;
@@ -17,6 +18,7 @@
 .header .row ul li a {
   padding-left: 30px;
   padding-right: 30px;
+  color: #231E41;
 }
 .header .row i {
   margin-bottom: 20px;
@@ -31,7 +33,7 @@
 }
 
 .sol {
-  margin-left: 100px;
+  margin-left: 80px;
   background-color: #F7F8FA;
   padding: 13px 15px;
   border-radius: 50%;
@@ -91,16 +93,37 @@
   border-radius: 190%;
 }
 
-.interior .rosm {
+.interior {
+  margin-bottom: 170px;
+}
+.interior .com {
+  position: relative;
+}
+.interior .com .rosm {
   width: 250%;
 }
-.interior .rosm img {
+.interior .com .rosm img {
   transform: scale(1.2);
-  height: 100vh;
   -webkit-animation: zoom 30s infinite ease-in-out;
           animation: zoom 30s infinite ease-in-out;
   padding-top: 50px;
   padding-left: 40px;
+}
+.interior .com .certi {
+  position: absolute;
+  right: -330px;
+  bottom: -90px;
+  background-color: #fff;
+  padding: 20px 40px;
+  text-align: center;
+  color: #231E41;
+  box-shadow: 0 0 10px 0 #AEAEBC;
+}
+.interior .com .certi h1 {
+  font-size: 60px;
+}
+.interior .com .certi h5 {
+  font-size: 30px;
 }
 .interior .sagto .baso h1 {
   width: 280%;
@@ -166,4 +189,224 @@
   margin-left: 490px;
   color: #6F6F87;
   font-size: 15px;
+}
+
+.like {
+  position: relative;
+}
+.like .quest h1 {
+  line-height: 110%;
+  font-size: 40px;
+  letter-spacing: -2px;
+  font-family: sans-serif;
+  color: #231E41;
+  font-weight: 600;
+}
+.like .quest p {
+  color: #AEAEBC;
+  margin-top: 30px;
+  width: 35%;
+  font-weight: 600;
+}
+.like .bat .btn-warning {
+  position: absolute;
+  bottom: 10px;
+  right: 120px;
+  padding: 15px 25px;
+  color: #231E41;
+}
+.like .bat .btn-warning i {
+  margin-right: 15px;
+}
+
+.dishes {
+  margin-top: 50px;
+}
+.dishes .info1 {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  background-color: #F9FAFC;
+  margin-bottom: 30px;
+}
+.dishes .info1:hover img {
+  transform: scale(1.05);
+  transform: translateY(-8px);
+}
+.dishes .info1:hover button {
+  transform: scale(1.3);
+}
+.dishes .info1 .ico1 {
+  position: relative;
+}
+.dishes .info1 .ico1 img {
+  width: 60px;
+  vertical-align: middle;
+  position: absolute;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+.dishes .info1 .ico1 button {
+  position: absolute;
+  background-color: #F5C332;
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  left: 15px;
+  top: 45px;
+  transition: 0.3s ease-in-out;
+}
+.dishes .info1 .texo1 h4 {
+  color: #231E41;
+  font-weight: 600;
+}
+.dishes .info1 .texo1 p {
+  color: #6F6F87;
+}
+
+.popu {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.popu .tit h2 {
+  color: #231E41;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+.popu .tit p {
+  color: #AEAEBC;
+  width: 50%;
+  margin-top: 30px;
+  font-weight: 600;
+  font-style: normal;
+}
+.popu .samo {
+  position: relative;
+}
+.popu .samo .bato {
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+.popu .samo .bato > i {
+  border: 2px solid #231E41;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 12px 13px;
+}
+.popu .samo .bato button {
+  padding: 14px 20px;
+  border: none;
+  background-color: #F5C332;
+  color: #231E41;
+  font-weight: 500;
+}
+.popu .samo .bato button i {
+  margin-right: 15px;
+}
+.popu .meal {
+  position: relative;
+}
+.popu .meal:hover .meal-img img {
+  transform: scale(1.1);
+}
+.popu .meal .meal-img {
+  overflow: hidden;
+}
+.popu .meal .meal-img img {
+  transition: 0.3s ease-in-out;
+}
+.popu .meal .meal-name {
+  background-color: #F7F8FA;
+  text-align: center;
+}
+.popu .meal .meal-name h6 {
+  color: #231E41;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 10px;
+  padding-top: 15px;
+}
+.popu .meal .meal-name span {
+  background-color: #F5C332;
+  font-size: 25px;
+  color: #231E41;
+  font-weight: 500;
+  padding: 10px;
+}
+.popu .meal .meal-name span sub {
+  font-size: 15px;
+}
+.popu .meal .texti {
+  padding-top: 10px;
+}
+.popu .meal .texti p {
+  color: #6F6F87;
+  font-weight: 500;
+}
+.popu .meal .texti i {
+  margin-right: 5px;
+  color: #FFD637;
+}
+.popu .meal .toti {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+.popu .meal .toti span {
+  padding: 3px 15px;
+  font-size: 14px;
+  color: #231E41;
+  font-weight: 500;
+  background-color: #FF5252;
+}
+.popu .meal .toti .doli {
+  background-color: #9CCC65;
+}
+
+.chefs {
+  margin-top: 50px;
+}
+.chefs .chef-profile .chef-profi {
+  text-align: center;
+}
+.chefs .chef-profile .chef-profi:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+.chefs .chef-profile .chef-profi .chef-info {
+  padding-top: 10px;
+}
+.chefs .chef-profile .chef-profi .chef-info span {
+  color: #231E41;
+  font-weight: 700;
+  font-size: 22px;
+}
+.chefs .chef-profile .chef-profi .chef-img {
+  position: relative;
+}
+.chefs .chef-profile .chef-profi .chef-img .chef-back {
+  position: absolute;
+  background-color: #F5C332;
+  border: none;
+  border-radius: 50%;
+  width: 200px;
+  height: 170px;
+  top: 30%;
+  left: 11%;
+  z-index: -1;
+  border: dotted 3px #FFFFFF;
+  box-shadow: 0 0 0 3px #f5c332;
+  filter: blur(5px);
+}
+.chefs .chef-profile .chef-profi .chef-alt {
+  padding-top: 5px;
+}
+.chefs .chef-profile .chef-profi .chef-alt p {
+  color: #6F6F87;
+}
+.chefs .chef-profile .chef-profi .chef-social i {
+  color: #231E41;
+  padding-right: 10px;
+  font-size: 13px;
 }/*# sourceMappingURL=style.css.map */
